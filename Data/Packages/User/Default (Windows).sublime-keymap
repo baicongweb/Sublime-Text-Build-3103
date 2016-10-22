@@ -1,0 +1,63 @@
+[
+    //插入时间
+     { "keys": ["ctrl+m"], "command": "insert_date", "args": {"format": "%Y/%m/%d %H:%M:%S"} },
+
+     //压缩CSS\JS\HTML\PHP
+    {"keys": ["ctrl+alt+["], "command": "css_format", "args": {"action": "expand"} },
+    {"keys": ["ctrl+alt+]"], "command": "css_format", "args": {"action": "compact-ns"} },
+    {"keys": ["ctrl+alt+\\"], "command": "css_format", "args": {"action": "compress"} },
+
+	 //等号对齐
+	{ "keys": ["ctrl+shift+alt+a"], "command": "alignment" },
+
+    //补全快捷键配置
+    {"keys": ["alt+d"], "command": "code_intel_auto_complete" },
+
+    //CSS添加私有前缀
+    { "keys": ["ctrl+shift+alt+c"], "command": "autoprefixer" },
+
+    //把HTML拼接成js插入字符串
+    { "keys": ["ctrl+alt+'"],"command": "quote_html","args": {"action": "single"}},
+
+
+	    //firefox
+    { "keys": ["f1"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+                "extensions":".*" //匹配任何文件类型
+            }
+    },
+    //chrome
+    { "keys": ["f2"], "command": "side_bar_files_open_with",
+            "args": {
+                "paths": [],
+                "application": "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+                "extensions":".*"
+            }
+     },
+    //ie
+     { "keys": ["f3"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe",
+                "extensions":".*"
+            }
+    },
+     //opera
+     { "keys": ["f4"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "C:\\Program Files (x86)\\Opera\\launcher.exe",
+                "extensions":".*"
+            }
+    },
+    //safari
+    { "keys": ["f5"], "command": "side_bar_files_open_with",
+            "args": {
+                "paths": [],
+                "application": "C:\\Program Files (x86)\\Safari\\safari.exe",
+                "extensions":".*"
+            }
+     },
+]

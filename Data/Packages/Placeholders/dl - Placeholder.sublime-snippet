@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<dl>
+	<dt>dl定义列表</dt>
+	<dd> dt定义列表中的项目和 dd 描述列表中的项目</dd>
+	<dt>计算机</dt>
+	<dd>用来计算的仪器 ... ...</dd>
+	<dt>显示器</dt>
+	<dd>以视觉方式显示信息的装置 ... ...</dd>
+</dl>]]></content>
+	<tabTrigger>dl</tabTrigger>
+	<description>dl - Placeholder</description>
+</snippet>
